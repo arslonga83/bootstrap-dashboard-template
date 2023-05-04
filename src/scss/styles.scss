@@ -1,2 +1,16 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+// Import google font
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fafbfe;
+}
+
+.main-content p,
+.stats{
+  color: #6d6d6d;
+}
+
