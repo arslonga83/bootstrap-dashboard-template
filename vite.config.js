@@ -5,6 +5,7 @@ export default {
   resolve: {
     alias: {
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+      '~chart.js': path.resolve(__dirname, 'node_modules/chart.js')
     }
   },
   server: {
